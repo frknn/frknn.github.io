@@ -72,7 +72,7 @@ body {
   display: flex;
   font-size: 1em;
   width: 80%;
-  height: 70%;
+  height: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -93,7 +93,8 @@ body {
   width: 50%;
   height: 100%;
   text-align: center;
-  padding-top: 7px;
+  padding-top: 2px;
+  box-sizing: border-box;
 }
 
 .card-btn:hover {
@@ -108,14 +109,13 @@ body {
 }
 
 .card-btn-right {
-  border-radius: 0 0 10px 0;
+  border-radius: 0 0 6px 0;
 }
 
 .disabled-btn {
   box-sizing: border-box;
   background-color: gray;
   pointer-events: none;
-  padding-top: 4px;
 }
 
 .projects-container {
