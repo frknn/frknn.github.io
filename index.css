@@ -19,20 +19,6 @@ body {
   background-color: #4f728e;
 }
 
-.welcome-arrow {
-  position: absolute;
-  top: 40%;
-  left: 95%;
-  font-size: 4rem;
-  transition: 0.12s ease;
-  cursor: pointer;
-}
-
-.welcome-arrow:hover {
-  color: #d7bf9f;
-}
-
-
 .projects {
   color: #eee;
   display: flex;
