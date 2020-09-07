@@ -21,41 +21,11 @@ body {
 
 .pfp{
   border-radius: 50%;
-  height: 30%;
-  border: solid 10px #253f5f;
-  transition: all 0.3s ease-out;
-  
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border: solid 8px #253f5f;
 }
-
-.pfp:hover{
-  transform: rotate(360deg);
-}
-
-/* .info {
-  color: #eee;
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-color: #4f728e;
-  transition: all 3s;
-}
-
-.hold {
-  position: absolute;
-  top: 50vh;
-  left: 85vw;
-  padding: 20px;
-  border-radius: 50%;
-  border: solid 2px;
-  transition: all 1s ease-out;
-}
-
-.hold:hover {
-  border: solid 10px lightgreen
-} */
 
 .projects {
   color: #eee;
